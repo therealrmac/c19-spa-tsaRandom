@@ -1,4 +1,6 @@
-
+body{
+	display: 100vh;
+}
 #arrow-right {
 	width: 0; 
 	height: 0; 
@@ -6,7 +8,6 @@
 	border-bottom: 60px solid transparent;
 	margin: 150px 550px;
 	border-left: 60px solid black;
-	visibility: hidden;
 }
 
 #arrow-left {
@@ -16,5 +17,7 @@
 	border-bottom: 60px solid transparent; 
 	margin: -150px 550px;
 	border-right:60px solid black; 
+}
+.hidden{
 	visibility: hidden;
 }
