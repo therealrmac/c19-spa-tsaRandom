@@ -1,4 +1,4 @@
-# What you see is what you get.
+# TSA arrow exercise.
 
 ### This is only my first commit to Github and it hasn't been completed yet.
 
