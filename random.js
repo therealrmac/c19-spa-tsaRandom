@@ -10,9 +10,11 @@ test.addEventListener('mousedown', function(){
 	var x= Math.floor(Math.random()*6 +1);
 	console.log(x);
 	if(x <=3){
+		leftArrow.classList.toggle("visable");
 		rightArrow.classList.toggle('hidden');
 	}
 	if(x >=4){
-		leftArrow.classList.toggle('hidden')
+		rightArrow.classList.toggle('visable');
+		leftArrow.classList.toggle('hidden');
 	}
 });

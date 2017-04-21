@@ -15,9 +15,12 @@ body{
 	height: 0; 
 	border-top: 60px solid transparent;
 	border-bottom: 60px solid transparent; 
-	margin: -150px 550px;
+	margin: -270px 600px;
 	border-right:60px solid black; 
 }
 .hidden{
+	visibility: hidden;
+}
+.visable{
 	visibility: hidden;
 }
