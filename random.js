@@ -6,26 +6,20 @@ var rightArrow= document.getElementById('arrow-right');
 var test= document.getElementById('testArea');
 
 test.addEventListener('mousedown', function(){
-	if(rightArrow.style.display ==="none"){
-		rightArrow.style.display= 'block';
+	var x= Math.floor(Math.random()*6 +1);
+	console.log(x);
+	if(x ===1 || x===2 || x===3){
+	if(rightArrow.style.visibility ==="hidden"){
+		rightArrow.style.visibility= 'visible';
 	}else{
-		rightArrow.style.display= "none";
+		rightArrow.style.visibility= "hidden";
 	}
-	if(leftArrow.style.display ==="none"){
-	leftArrow.style.display= 'block';
+}
+	if(x===4 || x===5 || x===6){
+	if(leftArrow.style.visibility ==="hidden"){
+		leftArrow.style.visibility= 'visible';
 	}else{
-		leftArrow.style.display= "none";
+		leftArrow.style.visibility= "hidden";
 	}
+}
 });
-test.addEventListener('mouseup', function(){
-	if(rightArrow.style.display ==="block"){
-	rightArrow.style.display= 'none';
-	}else{
-		rightArrow.style.display= "block";
-	}
-	if(leftArrow.style.display ==="block"){
-	leftArrow.style.display= 'none';
-	}else{
-		leftArrow.style.display= "block";
-	}
-})

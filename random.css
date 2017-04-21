@@ -6,6 +6,7 @@
 	border-bottom: 60px solid transparent;
 	margin: 150px 550px;
 	border-left: 60px solid black;
+	visibility: hidden;
 }
 
 #arrow-left {
@@ -15,4 +16,5 @@
 	border-bottom: 60px solid transparent; 
 	margin: -150px 550px;
 	border-right:60px solid black; 
+	visibility: hidden;
 }
